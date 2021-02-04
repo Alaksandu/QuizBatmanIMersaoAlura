@@ -1,0 +1,81 @@
+{
+    "bg": "https://referencianerd.com/wp-content/uploads/2019/05/rumored-info-on-the-villains-who-might-be-used-in-the-batman-and-sucide-squad-2-social.jpg",
+    "title": "Quiz Universo do Batman",
+    "description": "Até onde você sabe sobre o morcego?",
+    "questions": [
+        {
+            "image": "http://placehold.it/400x400",
+            "title": "Questão de Número 1",
+            "description": "Descrição da Questão número #01",
+            "answer": 1,
+            "alternatives": [
+                "Alternativa A",
+                "Alternativa B",
+                "Alternativa C",
+                "Alternativa D"
+            ]
+        },
+        {
+            "image": "http://placehold.it/400x400",
+            "title": "Questão de Número 2",
+            "description": "Descrição da Questão número #02",
+            "answer": 2,
+            "alternatives": [
+                "Alternativa A",
+                "Alternativa B",
+                "Alternativa C",
+                "Alternativa D"
+            ]  
+        },
+        {
+            "image": "http://placehold.it/400x400",
+            "title": "Questão de Número 3",
+            "description": "Descrição da Questão número #03",
+            "answer": 3,
+            "alternatives": [
+                "Alternativa A",
+                "Alternativa B",
+                "Alternativa C",
+                "Alternativa D"
+            ]
+        },
+        {
+            "image": "http://placehold.it/400x400",
+            "title": "Questão de Número 4",
+            "description": "Descrição da Questão número #04",
+            "answer": 4,
+            "alternatives": [
+                "Alternativa A",
+                "Alternativa B",
+                "Alternativa C",
+                "Alternativa D"
+            ]
+        },
+        {
+            "image": "http://placehold.it/400x400",
+            "title": "Questão de Número 5",
+            "description": "Descrição da Questão número #05",
+            "answer": 5,
+            "alternatives": [
+                "Alternativa A",
+                "Alternativa B",
+                "Alternativa C",
+                "Alternativa D"
+            ]
+        }
+    ],
+    "external": [
+        ""
+    ],
+    "theme": {
+        "colors": {
+            "primary": "#026ca0",
+            "secondary": "#52b202" ,
+            "mainBg": "#121212",
+            "contrastText": "#ffffff",
+            "wrong": "#f44336",
+            "success": "#00695f"
+        },
+        "borderRadiaus": "4px"
+    }
+}

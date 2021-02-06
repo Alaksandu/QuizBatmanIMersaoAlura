@@ -4,6 +4,7 @@ import Widget from '../source/components/Widgets'
 import Footer from '../source/components/Footer'
 import GitHubCorner from '../source/components/GitHubCorner'
 import QuizBackground from '../source/components/QuizBackground'
+import HeadAlterado from '../source/components/HeadAlterado'
 
 // const Title = styled.h1`
 //   font-size: 50px;
@@ -36,6 +37,7 @@ export const QuizContainer = styled.div`
 export default function Home() {
   return (
       <QuizBackground backgroundImage={db.bg}>
+        <HeadAlterado/>
         <QuizContainer>
           <Widget>
             <Widget.Header>

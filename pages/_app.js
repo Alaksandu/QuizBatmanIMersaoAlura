@@ -1,13 +1,8 @@
-import { createGlobalStyle, ThemeProvider } from 'styled-components'
-import db from "../db.json"
+import React from 'react';
+import { createGlobalStyle, ThemeProvider } from 'styled-components';
+import db from '../db.json';
+import HeadAlterado from '../source/components/HeadAlterado';
 
-// const GlobalStyle = createGlobalStyle`
-//   body {
-//     margin: 0;
-//     padding: 0;
-//     box-sizing: border-box;
-//   }
-// `
 const GlobalStyle = createGlobalStyle`
   * {
     box-sizing: border-box;
@@ -31,17 +26,19 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     flex-direction: column;
   }
-`
+`;
 
-const theme = db.theme
-
+const { theme } = db;
+// eslint-disable-next-line react/prop-types
 export default function App({ Component, pageProps }) {
   return (
     <>
+      <HeadAlterado />
       <ThemeProvider theme={theme}>
         <GlobalStyle />
+        {/* eslint-disable-next-line react/jsx-props-no-spreading */}
         <Component {...pageProps} />
       </ThemeProvider>
     </>
-  )
+  );
 }
